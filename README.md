@@ -14,16 +14,13 @@ To tackle this problem, a binary classification approach is employed. A dataset 
 
 The Google Stock Price dataset available at [Kaggle](https://www.kaggle.com/datasets/medharawat/google-stock-price) contains several columns that provide specific information about the stock price and trading volume. Let's discuss some of the key columns in this dataset:
 
+### Columns
+
 - Date: This column represents the date of the trading session. It provides a chronological order to the data, allowing for the analysis of stock price trends over time.
-
 - Open: The "Open" column indicates the opening price of Google's stock for a particular trading session. It represents the price at which the stock began trading at the start of the session.
-
 - High: The "High" column represents the highest price reached by Google's stock during the trading session. It provides insights into the intraday price movement and the potential price peaks.
-
 - Low: The "Low" column indicates the lowest price reached by Google's stock during the trading session. It provides insights into the intraday price movement and the potential price troughs.
-
 - Close: The "Close" column represents the closing price of Google's stock for a particular trading session. It signifies the final price at which the stock was traded for the day.
-
 - Volume: The "Volume" column indicates the total number of shares of Google's stock traded during the trading session. It reflects the liquidity and level of investor interest in the stock for that particular day.
 
 These columns provide specific information about the stock price and trading volume at different stages of a trading session. Analyzing these columns can help identify price patterns, trends, and potential indicators for making investment decisions. They also enable researchers to study the relationship between stock prices and trading volume, providing insights into market dynamics and investor sentiment.
