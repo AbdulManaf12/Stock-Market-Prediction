@@ -1,4 +1,4 @@
-#Stock Market Prediction using machine learning
+# Stock Market Prediction using machine learning
 
-###DATASET
+## DATASET
 https://www.kaggle.com/datasets/medharawat/google-stock-price
