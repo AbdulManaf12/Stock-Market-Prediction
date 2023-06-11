@@ -11,7 +11,8 @@ The problem addressed in this project is to develop a machine learning model tha
 To tackle this problem, a binary classification approach is employed. A dataset is collected, consisting of various features such as company information, age, market data, volume, and historical prices. The dataset is preprocessed, including steps such as feature scaling using techniques like StandardScaler to normalize the numerical data. Machine learning algorithms such as logistic regression, random forest, or support vector machines can be employed to build the predictive model. The model is trained on historical stock market data, with the target variable indicating whether the price increase condition is met (1) or not (0).
 
 ## DATASET
-The Google Stock Price dataset available at [a Kaggle](https://www.kaggle.com/datasets/medharawat/google-stock-price) contains several columns that provide specific information about the stock price and trading volume. Let's discuss some of the key columns in this dataset:
+
+The Google Stock Price dataset available at [Kaggle](https://www.kaggle.com/datasets/medharawat/google-stock-price) contains several columns that provide specific information about the stock price and trading volume. Let's discuss some of the key columns in this dataset:
 
 Date: This column represents the date of the trading session. It provides a chronological order to the data, allowing for the analysis of stock price trends over time.
 
