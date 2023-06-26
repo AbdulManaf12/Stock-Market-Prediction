@@ -1,4 +1,4 @@
-# Stock Market Prediction using machine learning
+# Stock Market Prediction using Machine Learning
 
 In the world of finance, the stock market plays a crucial role in investment decisions. Investors are always looking for ways to predict stock prices and make informed trading decisions. Machine learning techniques have gained significant popularity in this domain due to their potential in analyzing historical data and identifying patterns that can be used for predicting future stock prices.
 
@@ -10,23 +10,21 @@ The problem addressed in this project is to develop a machine learning model tha
 
 To tackle this problem, a binary classification approach is employed. A dataset is collected, consisting of various features such as company information, age, market data, volume, and historical prices. The dataset is preprocessed, including steps such as feature scaling using techniques like StandardScaler to normalize the numerical data. Machine learning algorithms such as logistic regression, random forest, or support vector machines can be employed to build the predictive model. The model is trained on historical stock market data, with the target variable indicating whether the price increase condition is met (1) or not (0).
 
-## DATASET:
+## Dataset:
 
-The Google Stock Price dataset available at [Kaggle](https://www.kaggle.com/datasets/medharawat/google-stock-price) contains several columns that provide specific information about the stock price and trading volume. Let's discuss some of the key columns in this dataset:
+The project utilizes the Tesla Stock Price dataset for training and evaluating the machine learning model. This dataset contains historical stock market data for Tesla, including columns such as:
 
-### Columns:
+- Date: The date of the trading session, providing a chronological order for analyzing stock price trends over time.
+- Open: The opening price of Tesla's stock for a particular trading session, indicating the price at which trading began.
+- High: The highest price reached by Tesla's stock during the trading session, reflecting potential price peaks.
+- Low: The lowest price reached by Tesla's stock during the trading session, reflecting potential price troughs.
+- Close: The closing price of Tesla's stock for a particular trading session, representing the final traded price for the day.
+- Volume: The total number of shares of Tesla's stock traded during the session, reflecting liquidity and investor interest.
 
-- Date: This column represents the date of the trading session. It provides a chronological order to the data, allowing for the analysis of stock price trends over time.
-- Open: The "Open" column indicates the opening price of Google's stock for a particular trading session. It represents the price at which the stock began trading at the start of the session.
-- High: The "High" column represents the highest price reached by Google's stock during the trading session. It provides insights into the intraday price movement and the potential price peaks.
-- Low: The "Low" column indicates the lowest price reached by Google's stock during the trading session. It provides insights into the intraday price movement and the potential price troughs.
-- Close: The "Close" column represents the closing price of Google's stock for a particular trading session. It signifies the final price at which the stock was traded for the day.
-- Volume: The "Volume" column indicates the total number of shares of Google's stock traded during the trading session. It reflects the liquidity and level of investor interest in the stock for that particular day.
-
-These columns provide specific information about the stock price and trading volume at different stages of a trading session. Analyzing these columns can help identify price patterns, trends, and potential indicators for making investment decisions. They also enable researchers to study the relationship between stock prices and trading volume, providing insights into market dynamics and investor sentiment.
-
-By utilizing these specific columns in the Google Stock Price dataset, investors, analysts, and researchers can gain valuable insights into the price movements and trends of Google's stock, facilitating informed decision-making and strategic analysis in the financial market.
+By utilizing this dataset, the machine learning model learns from the historical price patterns of Tesla's stock and predicts whether the closing price will increase by 15% within 20 market days.
 
 ## Conclusion:
 
-The developed machine learning model provides a solution for predicting stock market prices with a specific focus on identifying stocks with a potential 15% increase in price within 20 market days. By analyzing historical data and leveraging the power of machine learning algorithms, the model offers non-professional investors a tool to make more informed investment decisions. However, it is important to note that stock market prediction is a challenging task due to its inherent volatility and complexity. The model's performance should be continuously evaluated and refined to ensure its accuracy and reliability in real-world scenarios. Additionally, other factors such as market trends, economic indicators, and news events should be considered in conjunction with the model's predictions for making investment decisions.
+The developed machine learning model provides a solution for predicting stock market prices, with a focus on identifying stocks with a potential 15% price increase within 20 market days. By analyzing historical data of Tesla's stock and leveraging machine learning algorithms, the model offers non-professional investors a tool for making more informed investment decisions. However, it is important to note that stock market prediction is a challenging task due to volatility and complexity. The model's performance should be continuously evaluated and refined for accuracy and reliability in real-world scenarios. Additionally, other factors such as market trends, economic indicators, and news events should be considered alongside the model's predictions for making investment decisions.
+
+Please refer to the project code and documentation for more details on the implementation and evaluation of the stock market prediction model using Tesla's market stocks.
